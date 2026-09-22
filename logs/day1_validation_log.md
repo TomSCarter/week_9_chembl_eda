@@ -27,3 +27,7 @@
     * Only 1 fully duplicated row 
     * There are 3811 compounds with more than 1 row, and they have up to 59 rows (CHEMBL4518483)
     * CHEMBL4518483 has been tested in 49 unique assays, each with up to 6 values
+
+* Filtering
+    * Filtered Standard Type to 'Potency'
+    * Assay Description shows three different assays. Large set of inverse agonists (103901), but also two sets of agonists (3541 & 141). Given the opposite pharmacology, the data was filtered to the inverse agonists only (Assay ChEMBL ID = CHEMBL2114788).

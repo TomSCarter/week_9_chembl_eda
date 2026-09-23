@@ -1,5 +1,7 @@
 # Validation log
 
+**Assay ID filter added after downstream analysis revealed the raw pull mixed two distinct pharmacological assays; see Day 4 log for the diagnostic trail**
+
 **Shape**: 48 columns x 113886 rows
 
 * Datatypes

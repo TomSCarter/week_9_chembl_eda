@@ -24,7 +24,7 @@
     Source ID = 7
     Source Description = PubChem BioAssays
 * Created df_modelling_ready with columns above dropped. Shape: (21412, 11)
-    * A one-off demonstation snapshot, main dataframe retains these columns. 
+    * A one-off demonstration snapshot, main dataframe retains these columns. 
 
 ### Derived/redundant column audit
 
@@ -33,7 +33,7 @@
     * LogP <= 5
     * Hydrogen Bond Donors <= 5
     * Hydrogen Bond Acceptors: <= 10
-    Meaning that #RO5 Violations is dervived from Molecular Weight and (a version of) AlogP
+    Meaning that #RO5 Violations is derived from Molecular Weight and (a version of) AlogP
 * Standard Value and Value are the same potency values scaled to different units (nM vs µM)
 
 ### Sparse columns
@@ -42,4 +42,9 @@
 
 ### Schema verification checks
 
-*
+* Wrote functions to check:
+    * check_columns to compare column list against expected
+    * check_single_assay to check there is only one unique value in Assay ChEMBL ID
+    * check_no_placeholder_value to confirm that the 28183.8nM placeholder in Standard Value has been filtered out
+    * check_value_range to confirm there are no Standard Value values below zero
+    * check_allowed_categories to check categories in Comment against an allowed list

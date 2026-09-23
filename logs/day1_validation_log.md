@@ -1,4 +1,4 @@
-# Validation log
+# Day 1 Validation log
 
 **Assay ID filter added after downstream analysis revealed the raw pull mixed two distinct pharmacological assays; see Day 4 log for the diagnostic trail**
 

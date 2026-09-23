@@ -1,5 +1,7 @@
 ## Day 3 — Bivariate Analysis
 
+**Assay ID filter added after downstream analysis revealed the raw pull mixed two distinct pharmacological assays; see Day 4 log for the diagnostic trail**
+
 * Loaded data filtered conclusive rows: excluding 'inconclusive' and value = 28183.8 nM, n = 22326, filtering to 'Potency' type and 'CHEMBL2114788' assay ID.
 
 * Computed correlation matrices between all numerical columns (Pearson and Spearman) and generated heatmaps

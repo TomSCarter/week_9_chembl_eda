@@ -1,5 +1,7 @@
 ## Day 2 — Univariate Analysis: Standard Value
 
+**Assay ID filter added after downstream analysis revealed the raw pull mixed two distinct pharmacological assays; see Day 4 log for the diagnostic trail**
+
 ### Filtering
 * Filtered Standard Type to Potency only. Giving comparable values, all in nM. Filtered Assay ChEMBL ID to 'CHEMBL2114788' giving inverse agonists only (excluding the small agonists datasets)
     * Tested filtering Standard Units to nM, but that pulled in a few other assay types.

@@ -55,10 +55,10 @@ Week_9_ChEMBL_EDA/
 
 ## Setup and Run Instructions
 
-**Requirements:** Python 3, Pandas, NumPy, Matplotlib, Seaborn.
+**Requirements:** Python 3, Pandas, NumPy, Matplotlib, Seaborn, Jupyter.
 
 ```
-pip install pandas numpy matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 **Data:** place the raw ChEMBL export (`chembl_glp1.csv`) in `data/raw/`. This is not included in the repository (see `.gitignore`) — re-export from the ChEMBL link above if needed. Note the raw export is not pre-filtered; the notebook performs all filtering from the full, unfiltered pull.

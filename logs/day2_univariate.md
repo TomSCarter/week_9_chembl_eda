@@ -14,8 +14,8 @@
 * Skew = 0.54, meaning the tail extends to the right.
 * Excess kurtosis = -0.999, meaning the distribution is platykurtic — flatter than a normal distribution (0).
 * Plotting a histogram shows a distribution centred at 10000 nM with a longer right tail. But with a second peak due to a single highly populated bin at ca. 27000 nM. This may be an artifact, if that was determined to be the lower detection limit in many of the assays.
-* Investigating the outlier peak bin [ca. 27,000 nM], there are 20546 rows all with Standard Value = 28183.8 nM. Clearly this is not a real biological value as it must relate to a systemic artifact (detection limit, placeholder, etc). Needs tracing to source assays before it could be included as a valid measurement.
-    * Confirmed: all come from two assays (Assay ChEMBL ID) and all have Comment = 'inconclusive' or 'inactive'. Indicating this is likely a placeholder value.
+* Investigating the outlier peak bin [ca. 27,000 nM], there are 20546 rows all with Standard Value = 28183.8 nM. Clearly this is not a real biological value as it must relate to a systemic artifact (detection limit, placeholder, etc).
+    * Confirmed: All have Comment = 'inconclusive' or 'inactive'. Indicating this is likely a placeholder value.
         * **Decision:** exclude these rows from any further analysis.
 
 ### Re-analysis After Excluding Standard Value = 28183.8 nM

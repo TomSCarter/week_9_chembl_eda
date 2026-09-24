@@ -51,7 +51,7 @@ Week_9_ChEMBL_EDA/
     └── day5_integrity_log.md
 ```
 
-`notebooks/Full_5_step_GLP1_EDA.ipynb` is the complete, self-contained analysis and the one to read for the full picture. The `daily/` notebooks and `logs/` are the working history behind it, kept for reference to show the analysis as it was originally developed, including the discovery process behind key decisions (e.g. the assay-mixing finding, the placeholder-value investigation).
+`notebooks/Full_5_step_GLP1_EDA.ipynb` is the complete analysis. The `daily/` notebooks and `logs/` are the working history, kept for reference to show the analysis as it was originally developed, including the discovery process behind key decisions (e.g. the assay-mixing finding, the placeholder-value investigation).
 
 ## Setup and Run Instructions
 
